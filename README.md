@@ -35,7 +35,16 @@
 
 #### 实验5 生成对抗网络
 
+* GAN
+* WGAN
+* 异常检测
+
 #### 实验6 图神经网络
+
+* ChebNet
+* GCN
+* GraphSAGE
+* STGCN
 
 
 
