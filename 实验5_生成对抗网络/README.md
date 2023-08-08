@@ -1,5 +1,7 @@
 ### 生成对抗网络实验
 
+### 1. DCGAN
+
 #### 实验目标：
 
 数据集：FashionMNIST
@@ -21,3 +23,14 @@
 
 ![DCGAN实验结果](./dcgan.png)
 
+### 2.Conditional GAN
+
+DCGAN已经验证了生成对抗网络具有生成真实图片的能力，但如何生成指定类别的图片？条件gan给出了答案，通过训练生成器与判别器时加入对应类别的label就可以生成指定类别的图片。
+
+![](./cgan_structure.png)
+
+在模型中，类别label用不同数字表示，经过embedding层后reshape为与图像一样大小作为其另一个通道。
+
+#### 实验结果
+
+![](./cgan.png)
